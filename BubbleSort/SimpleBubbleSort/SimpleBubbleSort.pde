@@ -1,13 +1,13 @@
-//Initialize array
+//Declare array
 float[] values;
 int i=0;
 int j=0;
 
 void setup() {
   size(1000, 500);
-  frameRate(60);
+  frameRate(45);
   
-  //Declare array with width of window
+  //Initialize array with width of window
   values = new float[width/10];
   
   //Calculate a random height for each line
@@ -41,7 +41,7 @@ void draw() {
   }
   
   
-  //Create rectangle with random height per value
+  //Create rectangle height from values
   for (int i=0; i<values.length; i++) {
     fill(#ffffff);
     if(i==j) {
