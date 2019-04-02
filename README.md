@@ -4,7 +4,7 @@ A collection of sorting algorithms visualized in a variety of different ways.
 
 ## Algorithms
 
-Bubble Sort < br/>
+Bubble Sort <br />
 Quick Sort
 
 
